@@ -9,15 +9,7 @@ const Projects = () => {
       technologies: ['Python', 'TensorFlow', 'OpenCV'],
       github: 'https://github.com/username/project1',
       demo: 'https://demo.project1.com',
-      image: '/project1.jpg',
-    },
-    {
-      title: 'Portfolio Website',
-      description: 'Personal portfolio website built with React and modern web technologies',
-      technologies: ['React', 'Tailwind CSS', 'Vite'],
-      github: 'https://github.com/username/project2',
-      demo: 'https://demo.project2.com',
-      image: '/project2.jpg',
+      image: 'public/assets/hq720.jpg',
     },
     {
       title: 'Data Analysis Dashboard',
@@ -25,8 +17,16 @@ const Projects = () => {
       technologies: ['Python', 'Pandas', 'Plotly'],
       github: 'https://github.com/username/project3',
       demo: 'https://demo.project3.com',
-      image: '/project3.jpg',
+      image: 'public/assets/images.jpeg',
     },
+    {
+      title: 'Supervised Learning',
+      description: 'Interactive dashboard for visualizing complex datasets',
+      technologies: ['Python', 'Pandas', 'Plotly'],
+      github: 'https://github.com/username/project3',
+      demo: 'https://demo.project3.com',
+      image: 'public/assets/images (1).jpeg',
+    }
   ];
 
   return (
