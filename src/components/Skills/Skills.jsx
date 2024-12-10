@@ -9,14 +9,14 @@ const Skills = () => {
   });
 
   const skills = [
-    { name: ' C++', level: 85 },
-    { name: 'Python', level: 90 },
-    { name: 'Jupyter Notebook', level: 75 },
-    { name: 'Machine Learning', level: 80 },
-    { name: 'NumPy, Pandas', level: 85 },
-    { name: 'Matplotlib, Seaborn', level: 79 },
-    { name: 'Kaggle', level: 99 },
-    { name: 'Version Control', level: 89 }
+    { name: ' C++', level: 100 },
+    { name: 'Python', level: 100 },
+    { name: 'Jupyter Notebook', level: 100 },
+    { name: 'Machine Learning', level: 100 },
+    { name: 'NumPy, Pandas', level: 100 },
+    { name: 'Matplotlib, Seaborn', level: 100 },
+    { name: 'Kaggle', level: 100 },
+    { name: 'Version Control', level: 100 }
   ];
 
   return (
