@@ -1,17 +1,18 @@
 {
-  "homepage": "http://MARKASCHARAN.github.io/Dhrumin-Upadhyay",
+  "homepage": "https://MARKASCHARAN.github.io/dhrumin-upadhyay",
   "name": "dhrumin-upadhyay",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dlist",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
+    "install": "^0.13.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
